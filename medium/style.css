@@ -1,0 +1,239 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.head {
+  font-size: 1.5em;
+}
+
+.headerBlack {
+  color: black;
+}
+
+.headerBlack:hover {
+  color: black;
+}
+
+header {
+   border-bottom: 1px solid lightgray;
+   width: 85%;
+   margin: auto;
+}
+
+header .login {
+  padding-top: 1em;
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+header a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: green;
+}
+
+nav {
+  margin: auto;
+  width: 85%;
+}
+
+nav p {
+  padding: 2em;
+  text-indent: inherit;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0;
+  padding: 1em;
+}
+
+nav p a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav p a:hover {
+  color: darkgray;
+}
+
+.box {
+  margin-top: 0;
+  padding: 0;
+  margin: auto;
+  width: 1000px;
+  height: 400px;
+  background-image: url("https://vignette3.wikia.nocookie.net/harrypotter/images/3/3d/1000px-Lke.jpg/revision/latest?cb=20120909003504");
+}
+
+.hr {
+  margin: 0;
+  padding: 0;
+  color: lightgray;
+}
+
+.boxHead {
+  padding: 2em;
+  margin: 0;
+  display: block;
+  width: 45%;
+}
+
+.boxHead h2 {
+  margin: 0;
+  font-family: Times;
+  font-size: 3em;
+  color: white;
+  font-weight: normal;
+}
+
+.boxHead p {
+  font-size: 1.2em;
+  margin: 1em;
+  font-weight: lighter;
+}
+
+.p {
+  color: white;
+}
+
+ .buttonLeft {
+   color: black;
+   font-size: 0.75em;
+   display: inline-block;
+   background-color: white;
+   border-radius: 30px;
+ }
+
+ .buttonLeft:hover {
+   background-color: darkgray;
+ }
+
+.buttonRight {
+  font-size: 0.75em;
+  border: 1px solid white;
+  display: inline-block;
+  color: white;
+  border-radius: 30px;
+}
+
+.linkUnderscoreRemove {
+  text-decoration: none;
+}
+
+.buttonRight:hover {
+  border: 1px solid gray;
+}
+
+.breakerBox {
+  width: 1em;
+  display: inline-block;
+}
+
+.subNav {
+  margin: auto;
+  width: 1000px;
+  border-bottom: 1px solid gray;
+  font-size: 1.2em;
+}
+
+.moreLink {
+  color: gray;
+  float: right;
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+.moreLink a {
+  color: gray;
+}
+
+.verticalBreak {
+  height: 3em;
+}
+
+.verticalBreakSmall {
+  height: 1em;
+}
+
+.topStories {
+  font-weight: bold;
+}
+
+.topStories a {
+  text-decoration: none;
+  color: black;
+}
+
+.articleBox {
+  width: 1000px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+article {
+  width: 49%;
+  height: 275px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.contentP {
+  color: gray;
+}
+
+.content {
+  padding-right: 1em;
+}
+
+.showcaseImg {
+  margin-right: 1em;
+}
+
+.contentFooter {
+  position: relative;
+  bottom: 1em;
+  top: 60px;
+}
+
+.footerHeader {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding-left: 2em;
+}
+
+.footerP {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding-left: 5em;
+  color: gray;
+  line-height: 10%;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.ShayneSmith {
+  text-align: center;
+  color: lightgray;
+}
+
+.signIn {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.signIn:hover {
+  color: gray;
+}
