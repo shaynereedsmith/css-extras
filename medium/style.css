@@ -94,3 +94,14 @@ nav p a:hover {
   font-size: 1.2em;
   color: white;
 }
+ .buttonLeft {
+   font-size: 0.75em;
+   border: 1px solid white;
+   display: inline-block;
+ }
+
+.buttonRight {
+  font-size: 0.75em;
+  border: 1px solid white;
+  display: inline-block;
+}
