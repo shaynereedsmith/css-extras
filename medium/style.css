@@ -44,7 +44,6 @@ nav {
 nav p {
   padding: 2em;
   text-indent: inherit;
-  word-spacing: 1.8em;
   overflow: auto;
   white-space: nowrap;
   margin: 0;
@@ -92,16 +91,31 @@ nav p a:hover {
 
 .boxHead p {
   font-size: 1.2em;
+  margin: 1em;
+}
+
+.p {
   color: white;
 }
+
  .buttonLeft {
+   color: black;
    font-size: 0.75em;
    border: 1px solid white;
    display: inline-block;
+   background-color: white;
+   border-radius: 30px;
  }
 
 .buttonRight {
   font-size: 0.75em;
   border: 1px solid white;
+  display: inline-block;
+  color: white;
+  border-radius: 30px;
+}
+
+.breakerBox {
+  width: 1em;
   display: inline-block;
 }
