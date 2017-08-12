@@ -55,3 +55,7 @@ nav p a {
   color: gray;
   text-decoration: none;
 }
+
+nav p a:hover {
+  color: darkgray;
+}
