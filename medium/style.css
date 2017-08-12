@@ -15,6 +15,14 @@ body {
   font-size: 1.5em;
 }
 
+.headerBlack {
+  color: black;
+}
+
+.headerBlack:hover {
+  color: black;
+}
+
 header {
    border-bottom: 1px solid lightgray;
    width: 85%;
@@ -118,4 +126,26 @@ nav p a:hover {
 .breakerBox {
   width: 1em;
   display: inline-block;
+}
+
+.subNav {
+  margin: auto;
+  width: 1000px;
+  border-bottom: 1px solid gray;
+  font-size: 1.2em;
+}
+
+.moreLink {
+  color: gray;
+  float: right;
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+.verticalBreak {
+  height: 3em;
+}
+
+.articleBox {
+  
 }
