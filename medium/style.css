@@ -127,6 +127,14 @@ nav p a:hover {
   border-radius: 30px;
 }
 
+.linkUnderscoreRemove {
+  text-decoration: none;
+}
+
+.buttonRight:hover {
+  border: 1px solid gray;
+}
+
 .breakerBox {
   width: 1em;
   display: inline-block;
@@ -146,12 +154,29 @@ nav p a:hover {
   font-size: 0.6em;
 }
 
+.moreLink a {
+  color: gray;
+}
+
 .verticalBreak {
   height: 3em;
+}
+
+.topStories {
+  font-weight: bold;
+}
+
+.topStories a {
+  text-decoration: none;
+  color: black;
 }
 
 .articleBox {
   width: 1000px;
   margin: auto;
   border: 1px solid black;
+}
+
+article {
+
 }
