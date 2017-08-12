@@ -35,3 +35,23 @@ header a {
 header a:hover {
   color: green;
 }
+
+nav {
+  margin: auto;
+  width: 85%;
+}
+
+nav p {
+  padding: 2em;
+  text-indent: inherit;
+  word-spacing: 1.8em;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0;
+  padding: 1em;
+}
+
+nav p a {
+  color: gray;
+  text-decoration: none;
+}
