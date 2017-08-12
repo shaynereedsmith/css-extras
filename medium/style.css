@@ -162,6 +162,10 @@ nav p a:hover {
   height: 3em;
 }
 
+.verticalBreakSmall {
+  height: 1em;
+}
+
 .topStories {
   font-weight: bold;
 }
@@ -174,9 +178,62 @@ nav p a:hover {
 .articleBox {
   width: 1000px;
   margin: auto;
-  border: 1px solid black;
+  margin-top: 2em;
 }
 
 article {
+  width: 49%;
+  height: 275px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
 
+.contentP {
+  color: gray;
+}
+
+.content {
+  padding-right: 1em;
+}
+
+.showcaseImg {
+  margin-right: 1em;
+}
+
+.contentFooter {
+  position: relative;
+  bottom: 1em;
+  top: 60px;
+}
+
+.footerHeader {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding-left: 2em;
+}
+
+.footerP {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding-left: 5em;
+  color: gray;
+  line-height: 10%;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.ShayneSmith {
+  text-align: center;
+  color: lightgray;
+}
+
+.signIn {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.signIn:hover {
+  color: gray;
 }
