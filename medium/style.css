@@ -59,3 +59,38 @@ nav p a {
 nav p a:hover {
   color: darkgray;
 }
+
+.box {
+  margin-top: 0;
+  padding: 0;
+  margin: auto;
+  width: 1000px;
+  height: 400px;
+  background-image: url("https://vignette3.wikia.nocookie.net/harrypotter/images/3/3d/1000px-Lke.jpg/revision/latest?cb=20120909003504");
+}
+
+.hr {
+  margin: 0;
+  padding: 0;
+  color: lightgray;
+}
+
+.boxHead {
+  padding: 2em;
+  margin: 0;
+  display: block;
+  width: 45%;
+}
+
+.boxHead h2 {
+  margin: 0;
+  font-family: Times;
+  font-size: 3em;
+  color: white;
+  font-weight: normal;
+}
+
+.boxHead p {
+  font-size: 1.2em;
+  color: white;
+}
