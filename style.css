@@ -13,6 +13,7 @@ header {
   margin: 0;
   background: #563d7c;
   width: 100%;
+  top: 0px;
 }
 
 .headerLogo {
@@ -22,6 +23,11 @@ header {
 
 .headerNav {
   margin-top: 1.5em;
+  width: 88%;
+}
+
+.headerNav a:hover {
+  color: white;
 }
 
 .homeLink {
@@ -44,4 +50,34 @@ header {
 
 .floatRight {
   float: right;
+}
+
+.downloadButton {
+  text-align: center;
+  color: #ffe484;
+  border: 1px solid #ffe484;
+  border-radius: 5px;
+  padding: 0.6em;
+  margin-right: 1em;
+  margin-top: 0.8em;
+  width: 85px;
+  transition: background-color 0.1s ease-out;
+}
+
+.downloadButton:hover {
+  background-color: #ffe484;
+  color: #563d7c;
+  cursor: pointer;
+}
+
+.socialButton {
+  opacity: 0.7;
+}
+
+.socialButton:hover {
+  opacity: 1;
+}
+
+.body {
+  margin-top: 10em;
 }
