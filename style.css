@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Arial", Gadget, sans-serif
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  height: 65px;
+  margin: 0;
+  background: #563d7c;
+  width: 100%;
+}
+
+.headerLogo {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+.headerNav {
+  margin-top: 1.5em;
+}
+
+.homeLink {
+  color: white;
+  padding-left: 1em;
+}
+
+.navLink {
+  color: #c2b3da;
+  padding-left: 0.8em;
+}
+
+.inLine {
+  display: inline-block;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
