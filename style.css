@@ -171,10 +171,53 @@ h1 {
 
 .mastCell {
   padding: 3em;
-  width: 33.3%;
+  width: 393.33px;
   background: #f8f9fa;
 }
+
  .centerCellBorder {
    border-left: 2px solid white;
    border-right: 2px solid white;
  }
+
+.scroll {
+  max-width: 300px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.halfRule {
+  width: 35%;
+  border-top: 1px solid #dfe0e1;
+}
+
+.blueButton {
+  display: inline;
+  padding: 0.5em;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.3em;
+  transition: background-color 0.1s ease-out;
+}
+
+.blueButton:hover {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+pre {
+    color: #d44950;
+}
+
+.openClose {
+  color: #2f6f9f;
+}
+
+.equals {
+  color: #4f9fcf;
+}
+
+footer {
+  color: #f7f7f7
+}
