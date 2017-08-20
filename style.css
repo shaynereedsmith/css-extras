@@ -218,6 +218,31 @@ pre {
   color: #4f9fcf;
 }
 
+.blackText {
+  color: black;
+}
+
 footer {
-  color: #f7f7f7
+  padding: 3em;
+  background: #f7f7f7
+}
+
+footer p {
+  color: #868e96;
+  line-height: 0.3em;
+  font-size: 0.9em;
+}
+
+footer a {
+  font-weight: 500;
+  color: #495057;
+}
+
+footer a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.spacer {
+  margin-right: 2em;
 }
